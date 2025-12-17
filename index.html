@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jumping Jack-2D Game | Java Institute Project</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="icon" href="favicon.ico"/>
+        
+    </head>
+    <body class="body" onkeyup="keyCheck(event);">
+        <div class="background" id="background">
+
+        <div class="score" id="score" onclick="alerts();" onmouseup="scoreAnimate();">Let's Play</div>
+
+            <img src="Run (1).png" class="boy" id="boy"/>
+        </div>
+          
+        <div class="gameOver" id="gameOver">
+              <div class="g1">Game Over !</div>
+              <div class="g2">Your Score</div>
+              <div id="endScore" class="endScore">0</div>
+
+              <button class="btn" id="btn" onclick="re();" onmouseup="buttonAnimate();">Try Again</button>
+        </div>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
